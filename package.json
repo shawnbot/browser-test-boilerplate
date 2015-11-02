@@ -6,7 +6,8 @@
   "scripts": {
     "start": "static",
     "test": "wdio test/wdio.conf.js",
-    "test-sauce": "wdio test/wdio.sauce.js"
+    "test-sauce": "wdio test/wdio.sauce.js",
+    "test-travis": "wdio test/wdio.travis.js"
   },
   "author": "",
   "license": "CC0",
