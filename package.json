@@ -12,6 +12,7 @@
   "author": "",
   "license": "CC0",
   "devDependencies": {
+    "mocha": "^2.3.3",
     "webdriverio": "^3.2.6"
   }
 }
