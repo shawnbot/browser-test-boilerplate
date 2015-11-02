@@ -17,16 +17,16 @@
 # Running the Tests
 
 1. If you're using [Sauce Labs], set the `SAUCE_USERNAME` and
-   `SAUCE_ACCESS_KEY` environment variables  then run:
+   `SAUCE_ACCESS_KEY` environment variables, then run:
 
    ```
-   wdio wdio.sauce.js
+   wdio test/wdio.sauce.js
    ```
 
 1. Otherwise, run:
 
   ```
-  wdio wdio.conf.js
+  wdio test/wdio.conf.js
   ```
 
 
