@@ -11,9 +11,24 @@
   webdriver-manager start
   ```
 
-2. Run the tests.
+2. [Run the tests](#running-the-tests)
 
 
 # Running the Tests
 
-1. `wdio wdio.conf.js`
+1. If you're using [Sauce Labs], set the `SAUCE_USERNAME` and
+   `SAUCE_ACCESS_KEY` environment variables  then run:
+
+   ```
+   wdio wdio.sauce.js
+   ```
+
+1. Otherwise, run:
+
+  ```
+  wdio wdio.conf.js
+  ```
+
+
+[webdriver-manager]: https://www.npmjs.com/package/webdriver-manager
+[Sauce Labs]: https://saucelabs.com/
