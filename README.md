@@ -2,7 +2,7 @@
 
 1. Install and run [webdriver-manager]:
 
-  ```
+  ```sh
   # install webdriver-manager globally
   npm install -g webdriver-manager
   # install the Selenium binaries
@@ -13,7 +13,7 @@
 
 2. Run the tests with the default config:
 
-  ```
+  ```sh
   npm test
   ```
 
@@ -23,13 +23,13 @@
 To use [Sauce Labs], set the `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY`
 environment variables (for instance, with [autoenv]), then run:
 
-```
+```sh
 wdio test/wdio.sauce.js
 ```
 
 or, simply:
 
-```
+```sh
 npm run test-sauce
 ```
 
